@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://imgs.search.brave.com/5I7W-gTGDJ4CzOtnbEVE-ntMhizN91nVz-OQ6KH5ios/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzI2LzI5LzM1/LzM2MF9GXzEyNjI5/MzUzMF9HaTBaWTRX/WnBTRVlNNFVCOURs/dTg5U0M1Wk1NUU9N/Vy5qcGc');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2980b9; /* Blue background color */
+}
+
+.login-container {
+    background-color: rgba(50, 50, 50, 0.9); /* Dark gray background color with transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    text-align: center;
+    width: 350px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #fff; /* White color for heading */
+    font-size: 24px; /* Larger font size for the heading */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc; /* Light gray color for labels */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* Larger font size for input fields */
+    color: #333; /* Dark gray color for text */
+}
+
+button {
+    background-color: #2ecc71; /* Green button color */
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Increased padding for button */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; /* Larger font size for button text */
+}
+
+button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+#err {
+    color: rgb(191, 80, 80);
+}

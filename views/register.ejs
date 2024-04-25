@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Register</h2>
+        <form action="/register" method="post">
+            <div class="input-group">
+                <label for="username">Email:</label>
+                <input type="email" id="username" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Retype-Password:</label>
+                <input type="password" id="password" name="re_pass" placeholder="Retype-Password" required>
+            </div>
+            <h3 id="err"><%= locals.error %></h3>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
